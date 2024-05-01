@@ -5,17 +5,15 @@ import { FaAngleDown, FaAngleUp, FaArrowRight } from 'react-icons/fa';
 
 const Propertiesoverview = () => {
   const [isCollapsed, setCollapse] = useState(true);
-  const [showTakshaviContent, setShowTakshaviContent] = useState(false);
+  const [showTakshaviContent, setShowTakshaviContent] = useState(true); // Changed to true
   const [showEmbraceContent, setShowEmbraceContent] = useState(false);
   const [showEllenContent, setShowEllenContent] = useState(false);
   const [isCollapsed1, setCollapse1] = useState(true);
-
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
-
 
   const toggleCollapse = () => {
     setCollapse(!isCollapsed);
@@ -41,8 +39,6 @@ const Propertiesoverview = () => {
 
   const toggleCollapse1 = () => {
     setCollapse1(!isCollapsed1);
-
-
   };
 
   return (
@@ -65,11 +61,15 @@ const Propertiesoverview = () => {
                   <span className='float-end text-white'>{isCollapsed ? <FaAngleDown size={24} className='display-4' /> : <FaAngleUp size={24} className='display-4' />}</span>
                 </button>
                 <div id="panelsStayOpen-collapseOne" className={`accordion-collapse collapse ${isCollapsed ? '' : 'show'}`}>
-                  <div className="accordion-body">
+                  <div className="accordion-body ">
                     <div className="btn-group dropend w-100">
-                      <a style={{ cursor: "pointer" }} className="wbg-green rounded-0 text-decoration-none" onClick={toggleTakshaviContent}>
-                        1. Takshavi <span className='float-end'></span>
-                      </a>
+                      <button
+                        style={{ cursor: "pointer" }}
+                        className="btn wbg-green rounded-0"
+                        onClick={toggleTakshaviContent}
+                      >
+                        Takshavi <span className='float-end'></span>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -89,16 +89,25 @@ const Propertiesoverview = () => {
                   <span className='float-end text-white'>{isCollapsed ? <FaAngleDown size={24} className='display-4' /> : <FaAngleUp size={24} className='display-4' />}</span>
                 </button>
                 <div id="panelsStayOpen-collapseTwo" className={`accordion-collapse collapse ${isCollapsed ? '' : 'show'}`}>
-                  <div className="accordion-body">
+                  <div className="accordion-body ">
                     <div className="btn-group dropend w-100">
-                      <a style={{ cursor: "pointer" }} className="wbg-green rounded-0 text-decoration-none" onClick={toggleEmbraceContent}>
+                      <button
+                        style={{ cursor: "pointer" }}
+                        className="btn wbg-green rounded-0 text-decoration-none"
+                        onClick={toggleEmbraceContent}
+                      >
                         1. Embrace <span className='float-end'></span>
-                      </a>
+                      </button>
                     </div>
+
                     <div className="btn-group dropend w-100">
-                      <a style={{ cursor: "pointer" }} className="wbg-green rounded-0 text-decoration-none" onClick={toggleEllenContent}>
+                      <button
+                        style={{ cursor: "pointer" }}
+                        className="btn wbg-green rounded-0 text-decoration-none"
+                        onClick={toggleEllenContent}
+                      >
                         2. Ellen <span className='float-end'></span>
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -153,7 +162,7 @@ const Propertiesoverview = () => {
 
           {showEmbraceContent && (
             <Col sm={12} lg={7}>
-               <Carousel data-bs-theme="light">
+              <Carousel data-bs-theme="light">
                 <Carousel.Item>
                   <Image
                     className="d-block w-100"
@@ -185,7 +194,7 @@ const Propertiesoverview = () => {
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
-              
+
               <div>
                 <p className='fs-3 mt-4 mx-5'>Embrace</p>
                 <p className='justify-content-center mx-5 fs-6'>Modern Idyll in a Three-Storey Block with six Luxurious Homes</p>
@@ -249,10 +258,8 @@ const Propertiesoverview = () => {
           <Image src="/images/Group 13190.png" className="img-fluid" alt="..." />
         </div>
       </Container>
-
-
     </>
   );
 }
 
-export default Propertiesoverview
+export default Propertiesoverview;

@@ -166,7 +166,7 @@ const AmoraPage = () => {
       
       <Container fluid className="p-0 position-relative mt-5">
     <Image className="h-100 w-100" src="/images/Amora-fluid-img.png" />
-      <p className="fs-6 bg-white p-4 position-absolute bottom-0 end-0 mb-0  col-lg-6 amora-fluid border"> {/* Changed fs-5 to fs-6 */}
+      <p className="fs-6 bg-white p-4 position-absolute top-50 end-0 mb-0  col-lg-4 mt-5 amora-fluid border"> {/* Changed fs-5 to fs-6 */}
         In essence, Amora Villas stands as a testament to unparalleled luxury
         and sophistication, offering discerning vacationers a rare opportunity
         to experience the epitome of coastal living in the idyllic setting of

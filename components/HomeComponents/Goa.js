@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Row, Col, Container, Image ,Carousel} from 'react-bootstrap';
+import { Row, Col, Container, Image, Carousel } from 'react-bootstrap';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
 
 const Goa = () => {
@@ -7,7 +7,7 @@ const Goa = () => {
   const [showVistaContent, setShowVistaContent] = useState(false);
   const [isCollapsed1, setCollapse1] = useState(true);
 
-  
+
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
@@ -46,12 +46,17 @@ const Goa = () => {
                   <span className='float-end text-white'>{isCollapsed ? <FaAngleDown size={24} className='display-4' /> : <FaAngleUp size={24} className='display-4' />}</span>
                 </button>
                 <div id="panelsStayOpen-collapseOne" className={`accordion-collapse collapse ${isCollapsed ? '' : 'show'}`}>
-                  <div className="accordion-body">
-                    <div className="btn-group dropend w-100">
-                      <a style={{ cursor:"pointer"}} className="wbg-green rounded-0 text-decoration-none" onClick={toggleVistaContent}>
-                        1. Vista-Do-Mar <span className='float-end'></span>
-                      </a>
+                  <div className="accordion-body ">
+                    <div className="btn-group dropend w-100 ">
+                      <button
+                        style={{ cursor: "pointer" }}
+                        className="btn  rounded-0 "
+                        onClick={toggleVistaContent}
+                      >
+                       Vista-Do-Mar <span className='float-end '></span>
+                      </button>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -72,37 +77,37 @@ const Goa = () => {
             {showVistaContent && (
               <>
                 <Carousel data-bs-theme="light">
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Takshavi-banner.jpg"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Takshavi-banner.jpg"
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Takshavi-banner.jpg"
-                    alt="Second slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Takshavi-banner.jpg"
+                      alt="Second slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Takshavi-banner.jpg"
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Takshavi-banner.jpg"
+                      alt="Third slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
                 <div>
                   <p className='fs-3 mt-4 mx-5'>Vista-Do-Mar</p>
                   <p className='justify-content-center mx-5 fs-6'>A luxury apartment project in Dona Paula -Goa</p>

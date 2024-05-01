@@ -157,10 +157,10 @@ const Headerpage = () => {
               />
             </a>
           </Col>
-          <Col lg={3} className="d-flex flex-row justify-content-end">
-            <Button className="rounded-pill bg-white border-0 wbg-txt-green  px-3 me-5 d-flex flex-row ">
-              INQUIRE <BsArrowRightShort className="fs-3 text-center" />
-            </Button>
+          <Col lg={3} className="d-flex flex-row justify-content-end"> 
+            <Button className="rounded-pill bg-white border-0 wbg-txt-green text-center px-3 me-5 d-flex flex-row justify-content-center align-items-center"> 
+              INQUIRE <BsArrowRightShort className="fs-3 text-center" /> 
+            </Button> 
           </Col>
         </Row>
       </Container>
