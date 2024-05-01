@@ -17,8 +17,8 @@ const VistaBanner = () => {
 
       <BannerAllPageComponents backgroundImage={bgImage} />
       <Container>
-        <Row>
-          <Col className="position-absolute start-0 bottom-0">
+        <Row className="position-absolute start-0 bottom-0 ms-lg-4">
+          <Col className="">
             <h1 className=" px-5 ms-5 py-2 text-white display-1 mb-2">
               <b> Vista Do Mar  <p className='mb-0 gray'> by Ekaya Spaces</p></b>
             </h1>

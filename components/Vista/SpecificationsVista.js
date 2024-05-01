@@ -9,7 +9,7 @@ const SpecificationVista = () => {
         className="text-dark px-4"
         style={{ backgroundColor: "#D5F0F0" }}
       >
-        <Container>
+        <Container className="ms-2">
           <p className="  mt-5 p-1 display-6 px-lg-5 ms-lg-5 p-4">
             Specifications
           </p>

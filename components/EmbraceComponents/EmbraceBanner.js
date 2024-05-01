@@ -12,11 +12,11 @@ const EmbraceBanner = () => {
             <BannerAllPageComponents backgroundImage={bgImage} />
 
 
-            <Container>
+            <Container className=''>
                 <Row>
-                    <Col className="position-absolute start-0 bottom-0">
+                    <Col className="position-absolute start-0 bottom-0 ">
 
-                        <h1 className=" px-5 ms-5 py-2 text-white display-1 mb-2">
+                        <h1 className=" px-5 ms-5 py-2 text-white display-1 mb-2 ">
                             <b> Embrace <p className='mb-0 gray'>by Ekaya Spaces</p></b>
 
                         </h1>

@@ -9,8 +9,8 @@ const SpecificationTakshavi = () => {
         className="text-dark px-4"
         style={{ backgroundColor: "#D5F0F0" }}
       >
-        <Container>
-            <div className='ms-lg-5'>
+        <Container className='ms-1'>
+            <div className=''>
                 <p className="  mt-5 p-1 display-6 px-lg-5 ms-lg-5 p-4">
             Specifications
           </p>
@@ -60,7 +60,7 @@ const SpecificationTakshavi = () => {
               </p>
             </Col>
             <Col className="d-flex flex-column p-3" lg={5}>
-              <h5 className="p-2">LIVING / DINING</h5>
+              <p className="p-2 fs-5">LIVING / DINING</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -88,7 +88,7 @@ const SpecificationTakshavi = () => {
                 Premium emulsion paint for ceiling and walls.
                 </p>
               </div>
-              <h5 className="p-2">MASTER BEDROOM</h5>
+              <p className="p-2 fs-5">MASTER BEDROOM</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -116,7 +116,7 @@ const SpecificationTakshavi = () => {
                 Premium emulsion paint for ceiling and walls.
                 </p>
               </div>
-              <h5 className="p-2">OTHER ROOMS BEDROOMS</h5>
+              <p className="p-2 fs-5">OTHER ROOMS BEDROOMS</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -399,7 +399,7 @@ const SpecificationTakshavi = () => {
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
-              <h5 className="p-2">Main Door</h5>
+              <p className="p-2 fs-5">Main Door</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -415,7 +415,7 @@ const SpecificationTakshavi = () => {
                   </p>
                 </div>
               </div>
-              <h5 className="p-2">Internal Doors</h5>
+              <p className="p-2 fs-5">Internal Doors</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image
@@ -432,7 +432,7 @@ const SpecificationTakshavi = () => {
                   </p>
                 </div>
               </div>
-              <h5 className="p-2">Toilet Doors</h5>
+              <p className="p-2 fs-5">Toilet Doors</p>
               <div className="d-flex flex-row justify-content-start align-items-start ">
                 <div>
                   <Image

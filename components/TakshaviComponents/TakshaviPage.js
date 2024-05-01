@@ -5,7 +5,7 @@ import Link from "next/link";
 const TakshaviPage = () => {
   return (
     <>
-      <Container>
+      <Container className="ms-4">
         <p className="justify-content-center mx-4    ms-lg-5 px-lg-5 mt-5 display-6">
           Tranquil Living in{" "}
         </p>
@@ -29,7 +29,7 @@ const TakshaviPage = () => {
         </p>
       </Container>
 
-      <Container>
+      <Container className="ms-4">
         <p className="fs-3 mx-3 ms-lg-5 px-lg-5">
           Our homes are designed to create a harmonious flow between interior
           luxury and the beauty of the outdoors.
@@ -85,7 +85,7 @@ const TakshaviPage = () => {
         </Row>
       </Container>
 
-      <Container>
+      <Container className="ms-4">
         <h4 className="  p-5 ms-lg-5 px-lg-5">
           <span className=" p-3 border-green bg-white">
             <Link className="wbg-green" href="#">
@@ -96,7 +96,7 @@ const TakshaviPage = () => {
         </h4>
       </Container>
 
-      <Container>
+      <Container className="ms-4">
         <p className=" fs-6 mx-3 mt-3 ms-lg-5 px-lg-5">
           In a practical gesture, Takshavi ensures convenience for its residents
           by providing two dedicated parking spots per apartment, alleviating

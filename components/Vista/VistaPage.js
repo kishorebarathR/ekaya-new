@@ -11,7 +11,7 @@ import Link from "next/link";
 const VistaPage = () => {
   return (
     <>
-      <Container>
+      <Container className="ms-lg-4">
         <Row>
           <Col>
             <p className="justify-content-center ms-lg-5 mx-4 px-lg-5 mt-5 fs-3 wbg-green">
@@ -72,7 +72,7 @@ const VistaPage = () => {
         </p>
       </Container>
 
-      <Container>
+      <Container fluid>
     
       <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner mb-4">
@@ -127,8 +127,8 @@ const VistaPage = () => {
         </h4>
       </Container>
 
-      <Container>
-        <p className="justify-content-center mx-lg-5 mt-5 text-center fs-1">
+      <Container className="">
+        <p className="justify-content-center mx-lg-1 mt-5 text-center fs-1">
           Luxurious Amenities at Oceanfront Apartments
         </p>
         <p className="fs-5 ms-lg-5 mt-3 text-center px-lg-5">
@@ -137,7 +137,7 @@ const VistaPage = () => {
         </p>
       </Container>
       <Container>
-        <Row className="p-5 d-flex flex-grow-1 ms-lg-5">
+        <Row className="p-5 d-flex flex-grow-1 ">
           {VistaDoMar.map((items, index) => (
             <>
               <Col lg={4} className=" p-4">
@@ -151,7 +151,7 @@ const VistaPage = () => {
           ))}
         </Row>
         <Container>
-          <p className="wbg-green fs-2 text-center px-lg-5 ms-lg-5">
+          <p className="wbg-green fs-2 text-center px-lg-5 me-3">
             Experience the epitome of luxury living at our oceanfront paradise,
             where every detail is crafted to perfection.
           </p>

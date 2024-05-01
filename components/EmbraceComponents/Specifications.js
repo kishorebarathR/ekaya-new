@@ -7,11 +7,11 @@ const Specifications = () => {
 
             <Container fluid className='text-dark px-4 green'>
                 <Container className='px-5'>
-                <p className='  mt-5 p-1 display-6 ms-3'>Specifications</p><hr></hr>
+                <p className='  mt-5 p-1 display-6 ms-4'>Specifications</p><hr></hr>
                     <Row className='border-bottom-lite '>
                         <Col >
                             <p className='fs-6 ms-5'>
-                                <b>Structure</b>
+                                <h5>Structure</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>
@@ -35,12 +35,12 @@ const Specifications = () => {
                     <Row className='border-bottom-lite'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>Finishes</b>
+                                <h5>Finishes</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column '>
                             <p className=''>
-                                <b>LIVING / DINING</b>
+                                <h5>LIVING / DINING</h5>
                             </p>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
@@ -58,7 +58,7 @@ const Specifications = () => {
                                     Oil bound distemper paint for Ceiling and Walls.  </p>
                             </div>
 
-                            <p className=''><b>MASTER BEDROOM</b></p>
+                            <p className=''><h5>MASTER BEDROOM</h5></p>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -78,7 +78,7 @@ const Specifications = () => {
 
 
 
-                            <p className=''><b>OTHER BEDROOMS</b></p>
+                            <p className=''><h5>OTHER BEDROOMS</h5></p>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >
                                     <Image src="/images/specification_img.svg " className="m-2" style={{ width: '18px' }} alt="..."></Image>
@@ -101,7 +101,7 @@ const Specifications = () => {
                     <Row className='border-bottom-lite'>
                         <Col >
                             <p className='fs-6 ms-5'>
-                                <b>Toilets</b>
+                                <h5>Toilets</h5>
                             </p>
                         </Col>
 
@@ -135,7 +135,7 @@ const Specifications = () => {
                     <Row className='border-bottom-lite'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>Kitchen</b>
+                                <h5>Kitchen</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 'sm={6}>
@@ -189,7 +189,7 @@ const Specifications = () => {
                     <Row className='border-bottom-lite'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>Balconies/Utilities</b>
+                                <h5>Balconies/Utilities</h5>
                             </p>
                         </Col>
 
@@ -233,7 +233,7 @@ const Specifications = () => {
                     <Row className=' border-bottom-lite'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>Common Staircase</b>
+                                <h5>Common Staircase</h5>
                             </p>
                         </Col>
 
@@ -270,7 +270,7 @@ const Specifications = () => {
                     <Row className='border-bottom-lite'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>Common Areas</b>
+                                <h5>Common Areas</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>
@@ -315,13 +315,13 @@ const Specifications = () => {
                     <Row className='border-bottom-lite'>
                         <Col>
                         <p className='fs-6 ms-5'>
-                            <b>Joinery</b>
+                            <h5>Joinery</h5>
                             </p>
                             </Col>
                         <Col className='d-flex flex-column fs-6 '>
 
                             <p className=''>
-                                <b>Main Door</b>
+                                <h5>Main Door</h5>
                                 </p>
 
                                 <div className='d-flex flex-row justify-content-start align-items-start '>
@@ -332,7 +332,7 @@ const Specifications = () => {
                             </div>
 
                             <p className=''>
-                                <b>Internal Doors</b>
+                                <h5>Internal Doors</h5>
                                 </p>
 
                                 <div className='d-flex flex-row justify-content-start align-items-start '>
@@ -347,7 +347,7 @@ const Specifications = () => {
                            
                            
                             <p className=''>
-                                <b>Toilet Doors</b>
+                                <h5>Toilet Doors</h5>
                                 </p>
                                 <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >

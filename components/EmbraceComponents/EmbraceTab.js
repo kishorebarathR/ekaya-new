@@ -12,8 +12,8 @@ const EmbraceTab = () => {
 
   return (
     <>
-      <Container className='mt-5'>
-        <Row>
+      <Container className='mt-5 '>
+        <Row className='mx-5'>
           <Col lg={12} className='mt-5'>
             <Tabs
               activeKey={activeKey}

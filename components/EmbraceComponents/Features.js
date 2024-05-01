@@ -13,9 +13,9 @@ const Features = () => {
                     <Row className='border-bottom'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>
+                                <h5>
                                     SANITARY & PLUMBING
-                                </b>
+                                </h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>
@@ -38,7 +38,7 @@ const Features = () => {
                     <Row className='border-bottom'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>ELECTRICAL</b>
+                                <h5>ELECTRICAL</h5>
                             </p>
                         </Col>
 
@@ -63,7 +63,7 @@ const Features = () => {
                     <Row className='border-bottom'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>AIR CONDITIONG</b>
+                                <h5>AIR CONDITIONG</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>
@@ -87,7 +87,7 @@ const Features = () => {
                     <Row className='border-bottom'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>TELEPHONE POINTS</b>
+                                <h5>TELEPHONE POINTS</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>
@@ -112,7 +112,7 @@ const Features = () => {
                     <Row className='border-bottom '>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>TELEPHONE POINTS</b>
+                                <h5>TELEPHONE POINTS</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>
@@ -130,7 +130,7 @@ const Features = () => {
                     <Row className='border-bottom'>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>D.G</b>
+                                <h5>D.G</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 ' sm={6}>
@@ -168,7 +168,7 @@ const Features = () => {
                     <Row className='border-bottom '>
                         <Col>
                             <p className='fs-6 ms-5'>
-                                <b>SECURITY</b>
+                                <h5>SECURITY</h5>
                             </p>
                         </Col>
                         <Col className='d-flex flex-column fs-6 '>

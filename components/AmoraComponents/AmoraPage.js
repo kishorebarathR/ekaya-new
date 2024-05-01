@@ -9,14 +9,14 @@ const AmoraPage = () => {
       <Container>
         <Row>
           <Col>
-            <p className="justify-content-center mx-4 ms-lg-5 px-lg-5 mt-5 fs-4 wbg-green">
+            <p className="justify-content-center mx-4 ms-lg-5 px-lg-2 mt-5 fs-4 wbg-green">
               ABOUT THE PLOT
             </p>
           </Col>
         </Row>
 
-        <p className="justify-content-center mx-4 display-6 ms-lg-5 px-lg-5">Amora Villas</p>
-        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-5 ">
+        <p className="justify-content-center mx-4 display-6 ms-lg-5 px-lg-2">Amora Villas</p>
+        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-2 ">
           Located in the serene coastal town of Moira, nestled amidst the
           verdant landscapes and tranquil ambience, lies the prestigious Amora
           Villas project developed by Ekaya Spaces LLP. Spanning across a
@@ -25,12 +25,12 @@ const AmoraPage = () => {
           attention to detail and an unwavering commitment to excellence, this
           project redefines opulence in the heart of Goa.
         </p>
-        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-5"> 
+        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-2"> 
           The name “Amora” itself is derived from the Portuguese and Spanish
           word for love, reflecting the essence of affection and warmth that
           permeates every aspect of this luxurious retreat.
         </p>
-        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-5"> 
+        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-2"> 
           Comprising four exquisite villas, each meticulously designed to offer
           the epitome of comfort and sophistication, Amora Villas presents a
           haven of tranquility and elegance for vacationers. Each villa boasts
@@ -43,8 +43,8 @@ const AmoraPage = () => {
         </p>
       </Container>
 
-      <Container>
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <Container fluid className=" ">
+      <div id="demo" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner mb-4">
           <div class="carousel-item active">
             <Row>
@@ -88,7 +88,7 @@ const AmoraPage = () => {
       </Container>
     
       <Container>
-        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-5">
+        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-2">
           The spacious bathrooms, adorned with luxurious fittings and fixtures,
           evoke a sense of indulgence and relaxation, adding to the overall
           vacation experience. Stepping outside, vacationers are greeted by lush
@@ -97,7 +97,7 @@ const AmoraPage = () => {
           rejuvenate amidst the tranquil surroundings, offering a perfect
           retreat from the hustle and bustle of everyday life.
         </p>
-        <p className="fs-6 mx-4 mt-3 ms-lg-5 px-lg-5">
+        <p className="fs-6 mx-4 mt-3 ms-lg-5 px-lg-2">
           For those seeking moments of conviviality and entertainment, the
           rooftop bar offers a chic setting to unwind with friends and family
           while enjoying panoramic views of the surrounding landscape. Whether
@@ -105,16 +105,17 @@ const AmoraPage = () => {
           serves as the perfect venue for creating cherished vacation memories.
         </p>
       </Container>
-      <Container>
-        <Row className="mt-5">
-          <Col lg={5}>
-            <Image
-              className="h-100 w-100 p-lg-5 ms-lg-5 px-lg-5"
-              src="/images/Amora-Group-3.png"
-            />
+     
+     
+      <Container fluid className="mt-5 d-flex flex-column gap-5">
+        <Row className="">
+         
+          <Col className='p-0' sm={12} lg={5}>
+            <Image src="/images/Amora-Group-3.png" className="img-fluid w-100 h-100 middle  " alt="..." />
           </Col>
-          <Col>
-            <p className="fs-6 text-start p-lg-5 mt-5">
+         
+          <Col className='p-5 d-flex flex-column justify-content-center postion-relative' sm={12} lg={7}>
+            <p className="fs-6 mb-0 p-4 me-5  ">
               The commitment to ensuring utmost convenience and comfort extends
               to the practical aspects of vacation living as well. Each villa is
               fully air-conditioned, providing a respite from the tropical heat,
@@ -125,11 +126,12 @@ const AmoraPage = () => {
               of mind.
             </p>
           </Col>
+       
         </Row>
-        {/* <Row className="mt-5 d-flex flex-column-reverse"> */}
-        <Row className="">
-          <Col>
-            <p className="fs-6 p-lg-5 mt-5 ms-lg-5 px-lg-5"> 
+      
+        <Row className=' d-flex flex-lg-row flex-column-reverse'>
+        <Col className='p-5 d-flex flex-column justify-content-center' sm={12} lg={7}>
+        <p className='fs-6 mb-0 p-4 ms-5 '>
               One of the most remarkable features of Amora Villas is the
               emphasis on privacy. Each villa is thoughtfully designed to ensure
               seclusion and exclusivity, allowing vacationers to enjoy their
@@ -139,23 +141,19 @@ const AmoraPage = () => {
               exceptional vacation home.
             </p>
           </Col>
-          <Col lg={5} className="mb-4">
-            <Image
-              className="w-100 h-100 p-lg-5 "
-              src="/images/Amora-Group-4.png"
-            />
+          <Col className=' p-0' sm={12} lg={5}>
+            <Image src="/images/Amora-Group-4.png"  className="img-fluid w-100 h-100 middle " alt="..."  />
           </Col>
         </Row>
 
+       
+       
         <Row className="">
-          <Col lg={5}>
-            <Image
-              className="h-100 w-100 p-lg-5 ms-lg-5 px-lg-5"
-              src="/images/Amora-Group-5.png"
-            />
+          <Col className='p-0' sm={12} lg={5}>
+            <Image src="/images/Amora-Group-5.png" />
           </Col>
-          <Col>
-            <p className="fs-6 p-lg-5 mt-5"> 
+          <Col  className='p-5 d-flex flex-column justify-content-center postion-relative' sm={12} lg={7}>
+            <p className="fs-6 mb-0 p-4 me-5  "> 
               Moreover, the strategic location of Amora Villas further enhances
               its allure. Surrounded by some of the finest residential projects
               in Moira, guests benefit from a vibrant community atmosphere while
@@ -164,7 +162,9 @@ const AmoraPage = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="p-0 position-relative">
+      
+      
+      <Container fluid className="p-0 position-relative mt-5">
     <Image className="h-100 w-100" src="/images/Amora-fluid-img.png" />
       <p className="fs-6 bg-white p-4 position-absolute bottom-0 end-0 mb-0  col-lg-6 amora-fluid border"> {/* Changed fs-5 to fs-6 */}
         In essence, Amora Villas stands as a testament to unparalleled luxury

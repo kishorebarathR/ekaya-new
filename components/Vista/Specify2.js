@@ -10,7 +10,7 @@ const Specificy2 = () => {
         style={{ backgroundColor: "#ABD2D3" }}
       >
         <div className="border-bottom-white "></div>
-        <Container className="">
+        <Container className="ms-1">
           <Row className="border-bottom-white">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 p-3 ms-lg-5 m-0">

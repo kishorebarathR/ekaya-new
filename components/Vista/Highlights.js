@@ -5,11 +5,11 @@ const Highlights = () => {
   return (
     <>
     <Container>
-      <h2 className="p-5 ms-lg-5 mx-4 px-lg-5 fs-1">Location Highlights</h2>
+      <h2 className="p-5 ms-lg-5 mx-4 px-lg-2 fs-1">Location Highlights</h2>
     </Container>
       
-      <Container className="p-5">
-        <Row>
+      <Container className="p-5 ">
+        <Row className="ms-1">
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"
@@ -27,7 +27,7 @@ const Highlights = () => {
             </ul>
           </Col>
         </Row>
-        <Row>
+        <Row className="ms-1">
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"
@@ -61,7 +61,7 @@ const Highlights = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="ms-1">
           
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
@@ -81,7 +81,7 @@ const Highlights = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="ms-1">
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"
@@ -98,7 +98,7 @@ const Highlights = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="ms-1">
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"
@@ -116,7 +116,7 @@ const Highlights = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="ms-1">
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"

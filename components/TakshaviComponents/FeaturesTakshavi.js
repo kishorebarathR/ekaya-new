@@ -5,7 +5,7 @@ const FeaturesTakshavi = () => {
   return (
     <>
       <Container fluid className="text-dark px-4 wbg-green-dark ">
-        <Container className="">
+        <Container className="ms-1">
           <Row className="border-bottom-green">
             <Col lg={5} className="mt-4">
               <p className="fs-5 ms-lg-5 px-lg-5 p-lg-3">

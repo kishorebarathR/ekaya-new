@@ -4,10 +4,11 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 const Highlights = () => {
   return (
     <>
-      <h3 className="p-5 ms-lg-5 fs-1">Location Highlights</h3>
+     
       <Container className="p-5">
+      <h3 className="p-2 mb-5 fs-1">Location Highlights</h3>
         <Col className="d-flex flex-column justify-content-center gap-3">
-          <Row>
+          <Row className="ms-1">
             <Col lg={3} className="position-relative bg-green p-0">
               <span
                 id="triangle-right-1"
@@ -32,7 +33,7 @@ const Highlights = () => {
             </Col>
           </Row>
 
-          <Row>
+          <Row className="ms-1">
             <Col lg={3} className="position-relative bg-green p-0">
               <span
                 id="triangle-right-1"
@@ -65,7 +66,7 @@ const Highlights = () => {
             </Col>
           </Row>
 
-          <Row>
+          <Row className="ms-1">
             <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"
@@ -84,7 +85,7 @@ const Highlights = () => {
             </Col>
           </Row>
 
-          <Row>
+          <Row className="ms-1">
             <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"
@@ -102,7 +103,7 @@ const Highlights = () => {
             </Col>
           </Row>
 
-          <Row>
+          <Row className="ms-1">
             <Col lg={3} className="mb-3 position-relative p-0 bg-green">
             <span
                 id="triangle-right-1"
@@ -120,7 +121,7 @@ const Highlights = () => {
             </Col>
           </Row>
 
-          <Row>
+          <Row className="ms-1">
             <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span
                 id="triangle-right-1"

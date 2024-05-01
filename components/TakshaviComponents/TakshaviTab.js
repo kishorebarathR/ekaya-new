@@ -7,13 +7,16 @@ const TakshaviTab = () => {
   const [activeKey, setActiveKey] = useState('home');
 
   const handleTabSelect = (key) => {
-    setActiveKey(key);
+    if (activeKey !== key) {
+      setActiveKey(key);
+    }
   };
 
   return (
-    <>  <Container className='mt-5x'>
+    <> 
+     <Container className='mt-5 '>
     <Row>
-      <Col lg={12} className='mt-5 ms-lg-5 px-lg-5'>
+      <Col lg={12} className='mt-5 ms-lg-3 px-lg-5'>
         <Tabs
           activeKey={activeKey}
           onSelect={handleTabSelect}
@@ -36,8 +39,8 @@ const TakshaviTab = () => {
             <Image src="/images/embrace-img-14.png" className="img-fluid mt-4  mt-3" alt="3D Rendered Image" />
           </Tab>
            
-          <Tab eventKey="about2" title={<span className="tab-title">Three BedRoom <p className='mb-0'></p>3D Rendered</span>}>
-            <Image src="/images/embrace-img-15.png" className="img-fluid mt-4  mt-3" alt="3D Rendered Image" />
+          <Tab eventKey="about3"title={<span className="tab-title">four BedRoom <p className='mb-0'></p>4D Rendered</span>}>
+            <Image src="/images/embrace-img-15.png" className="img-fluid mt-4" alt="3D Rendered Image" />
           </Tab>
         </Tabs>
       </Col>

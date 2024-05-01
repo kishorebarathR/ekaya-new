@@ -6,10 +6,10 @@ const SpecificationEllen = () => {
     <>
       <Container
         fluid
-        className="text-dark px-4"
+        className="text-dark px-4 "
         style={{ backgroundColor: "#D5F0F0" }}
       >
-        <Container>
+        <Container className="ms-2">
           <p className="  mt-5 p-1 display-6 px-lg-5 ms-lg-5 p-4">
             Specifications
           </p>
@@ -17,7 +17,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>STRUCTURE</b>
+                <h5>STRUCTURE</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -51,7 +51,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>FLOORING</b>
+                <h5>FLOORING</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column p-3" lg={5}>
@@ -78,7 +78,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>PAINTING</b>
+                <h5>PAINTING</h5>
               </p>
             </Col>
 
@@ -104,7 +104,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>KITCHEN</b>
+                <h5>KITCHEN</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -133,7 +133,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>DOORS</b>
+                <h5>DOORS</h5>
               </p>
             </Col>
 
@@ -161,7 +161,7 @@ const SpecificationEllen = () => {
           <Row className=" border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>ELECTRICAL</b>
+                <h5>ELECTRICAL</h5>
               </p>
             </Col>
 
@@ -187,10 +187,10 @@ const SpecificationEllen = () => {
             </Col>
           </Row>
 
-          <Row className="">
+          <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>SECURITY</b>
+                <h5>SECURITY</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -219,7 +219,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>GYM</b>
+                <h5>GYM</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>
@@ -243,7 +243,7 @@ const SpecificationEllen = () => {
           <Row className="border-bottom-green">
             <Col lg={5}>
               <p className="fs-5 px-lg-5 ms-lg-5 p-3">
-                <b>MISCELLANEOUS</b>
+                <h5>MISCELLANEOUS</h5>
               </p>
             </Col>
             <Col className="d-flex flex-column fs-6 p-3" lg={5}>

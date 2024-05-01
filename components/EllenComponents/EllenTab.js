@@ -14,7 +14,7 @@ const EllenTab = () => {
     <>
       <Container className='mt-5 ms-lg-5 px-lg-5'>
         <Row>
-          <Col lg={12} className='mt-5 ms-lg-5 px-lg-4'>
+          <Col lg={12} className='mt-5 ms-lg-3 px-lg-4'>
             <Tabs
               activeKey={activeKey}
               onSelect={handleTabSelect}
