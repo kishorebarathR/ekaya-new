@@ -5,7 +5,7 @@ const Features = () => {
     return (
         <>
 
-            <Container fluid className='text-white px-4 wbg-yellow'>
+            <Container fluid className='text-white px-4 wbg-yellow '>
                 <Container className='px-5'>
                     <Col className='border-bottom'>
                         <p className=' p-1 display-6 ms-5'>Features</p>

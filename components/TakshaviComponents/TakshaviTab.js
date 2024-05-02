@@ -14,7 +14,7 @@ const TakshaviTab = () => {
 
   return (
     <> 
-     <Container className='mt-5 '>
+     <Container className='pb-5 p-0 z-2 bg-white position-relative '>
     <Row>
       <Col lg={12} className='mt-5 ms-lg-3 px-lg-5'>
         <Tabs

@@ -6,9 +6,9 @@ import { IoIosArrowDown } from "react-icons/io";
 const Footerpage = () => {
     return (
         <>
-
-            <Container className='p-0 z-2 bg-white position-relative'>
-                <Row className='mt-5 px-5'>
+<Container className= 'p-0 z-2 bg-white position-relative '>
+           
+                <Row className=' px-5 '>
                     <Col lg={12} sm={12} className='d-flex flex-row text-center '>
                         <a href="#" className="  w-100 p-2 fs-6  color-footer border">Facebook <GoArrowUpRight className='fs-3' /></a>
                         <a href="#" className="  w-100 p-2 fs-6 color-footer border">LinkedIn <GoArrowUpRight className='fs-3' /></a>

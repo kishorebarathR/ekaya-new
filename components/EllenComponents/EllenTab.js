@@ -12,7 +12,7 @@ const EllenTab = () => {
 
   return (
     <>
-      <Container className='mt-5 ms-lg-5 px-lg-5'>
+      <Container className='mt-5 ms-lg-5 px-lg-5 z-2 bg-white position-relative '>
         <Row>
           <Col lg={12} className='mt-5 ms-lg-3 px-lg-4'>
             <Tabs
