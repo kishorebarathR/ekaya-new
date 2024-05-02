@@ -5,7 +5,7 @@ import { FaAngleDown, FaAngleUp, FaArrowRight } from 'react-icons/fa';
 
 const Propertiesoverview = () => {
   const [isCollapsed, setCollapse] = useState(true);
-  const [showTakshaviContent, setShowTakshaviContent] = useState(true); // Changed to true
+  const [showTakshaviContent, setShowTakshaviContent] = useState(true);
   const [showEmbraceContent, setShowEmbraceContent] = useState(false);
   const [showEllenContent, setShowEllenContent] = useState(false);
   const [isCollapsed1, setCollapse1] = useState(true);
@@ -43,9 +43,11 @@ const Propertiesoverview = () => {
 
   return (
     <>
-      <Container className='ms-5'>
-        <Row className='mt-5'>
-          <Col className='flex-row-reverse' sm={12} lg={4}>
+
+
+      <Container className='mb-0'>
+        <div className='mt-5 d-flex flex-row px-1  ms-4'>
+          <div className='p-0 col-lg-4 col-sm-12 pe-3'>
             <div className="accordion" id="accordionPanelsStayOpenExample">
               <div className="accordion-item">
                 <button
@@ -113,151 +115,157 @@ const Propertiesoverview = () => {
                 </div>
               </div>
             </div>
-          </Col>
+          </div>
 
-          {showTakshaviContent && (
-            <Col sm={12} lg={7}>
-              <Carousel data-bs-theme="light">
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Homebanner1.jpg"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
+          <div className='p-0 me-4'>
+            {showTakshaviContent && (
+              <Col>
+                <Carousel data-bs-theme="light">
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Takshavi-banner.jpg"
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Homebanner1.jpg"
-                    alt="Second slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Takshavi-banner.jpg"
+                      alt="Second slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Homebanner1.jpg"
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Takshavi-banner.jpg"
+                      alt="Third slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
 
-              <div>
-                <p className='fs-3 mt-4 mx-5'>Takshavi</p>
-                <p className='justify-content-center mx-5 fs-6'>Ekaya Spaces proudly unveils Takshavi, a boutique residential<br></br> enclave nestled in the heart of Frazer Town’s Spencer Road.</p>
-                <button className="btn-outline-dark w-25 p-2 mx-5 btn-color bt">
-                  <a href="takshavi" className='nav-link'>Know More</a>
-                </button>
-              </div>
-            </Col>
-          )}
+                <div>
+                  <p className='fs-3 mt-4 mx-5'>Takshavi</p>
+                  <p className='justify-content-center mx-5 fs-6'>Ekaya Spaces proudly unveils Takshavi, a boutique residential<br></br> enclave nestled in the heart of Frazer Town’s Spencer Road.</p>
+                  <button className="btn-outline-dark w-25 p-2 mx-5 btn-color bt">
+                    <a href="takshavi" className='nav-link'>Know More</a>
+                  </button>
+                </div>
+              </Col>
+            )}
 
-          {showEmbraceContent && (
-            <Col sm={12} lg={7}>
-              <Carousel data-bs-theme="light">
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Takshavi-banner.jpg"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
+            {showEmbraceContent && (
+              <Col>
+                <Carousel data-bs-theme="light">
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Embrace-banner.jpg"
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Takshavi-banner.jpg"
-                    alt="Second slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Embrace-banner.jpg"
+                      alt="Second slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Takshavi-banner.jpg"
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Embrace-banner.jpg"
+                      alt="Third slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
 
-              <div>
-                <p className='fs-3 mt-4 mx-5'>Embrace</p>
-                <p className='justify-content-center mx-5 fs-6'>Modern Idyll in a Three-Storey Block with six Luxurious Homes</p>
-                <button className="btn-outline-dark w-25 p-2 mx-5 btn-color bt">
-                  <a href="embrace" className='nav-link'>Know More</a>
-                </button>
-              </div>
-            </Col>
-          )}
-          {showEllenContent && (
-            <Col sm={12} lg={7}>
-              <Carousel data-bs-theme="light ">
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Homebanner1.jpg"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
+                <div>
+                  <p className='fs-3 mt-4 mx-5'>Embrace</p>
+                  <p className='justify-content-center mx-5 fs-6'>Modern Idyll in a Three-Storey Block with six Luxurious Homes</p>
+                  <button className="btn-outline-dark w-25 p-2 mx-5 btn-color bt">
+                    <a href="embrace" className='nav-link'>Know More</a>
+                  </button>
+                </div>
+              </Col>
+            )}
+            {showEllenContent && (
+              <Col>
+                <Carousel data-bs-theme="light ">
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Ellen-banner.jpg"
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Homebanner1.jpg"
-                    alt="Second slide"
-                  />
-                  <Carousel.Caption>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100"
+                      src="/images/Ellen-banner.jpg"
+                      alt="Second slide"
+                    />
+                    <Carousel.Caption>
 
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    className="d-block w-100"
-                    src="/images/Homebanner1.jpg"
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
-
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-              <div>
-                <p className='fs-3 mt-4 mx-5'>Ellen</p>
-                <p className='justify-content-center mx-5 fs-6'>A premium three-storey apartment block,<p className='mb-0'></p> with a total of 11 spacious modern homes,</p>
-                <button className="btn-outline-dark w-25 p-2 mx-5 btn-color bt">
-                  <a href="ellen" className='nav-link'>Know More</a>
-                </button>
-              </div>
-            </Col>
-          )}
-        </Row>
-      </Container>
-      <Container>
-        <p className='text-center fs-5 mt-5 wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
-        <p className='text-center mx-5 p-4 fs-6' style={{ borderBottom: '1px dotted' }}>“Discovering Ekaya was like finding a hidden gem. The attention to detail and personal touch<br></br> they bring to every aspect of the home-buying experience is truly unparalleled.”</p>
-      </Container>
-      <Container>
-        <div className='text-center mt-4'>
-          <Image src="/images/Group 13190.png" className="img-fluid" alt="..." />
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Image
+                      className="d-block w-100 "
+                      src="/images/Ellen-banner.jpg"
+                      alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                    
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
+                <div>
+                  <p className='fs-3 mt-4 mx-5'>Ellen</p>
+                  <p className='justify-content-center mx-5 fs-6'>A premium three-storey apartment block,<p className='mb-0'></p> with a total of 11 spacious modern homes,</p>
+                  <button className="btn-outline-dark w-25 p-2 mx-5 btn-color bt">
+                    <a href="ellen" className='nav-link'>Know More</a>
+                  </button>
+                </div>
+              </Col>
+            )}
+          </div>
         </div>
       </Container>
+      <Container className='z-3 bg-white position-relative ' >
+        <Container className=' p-0 border-top  '>
+          <p className='text-center fs-5 mt-5  wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
+          <p className='text-center mx-5 p-4 fs-6' style={{ borderBottom: '2px dotted' }}>“Discovering Ekaya was like finding a hidden gem. The attention to detail and personal touch<br></br> they bring to every aspect of the home-buying experience is truly unparalleled.”</p>
+        </Container>
+
+        <Container className=' '>
+          <div className='text-center mt-4 '>
+            <Image src="/images/Group 13190.png" className="img-fluid" alt="..." />
+          </div>
+        </Container>
+      </Container>
+
     </>
   );
 }

@@ -7,7 +7,7 @@ const Footerpage = () => {
     return (
         <>
 
-            <Container>
+            <Container className='p-0 z-2 bg-white position-relative'>
                 <Row className='mt-5 px-5'>
                     <Col lg={12} sm={12} className='d-flex flex-row text-center '>
                         <a href="#" className="  w-100 p-2 fs-6  color-footer border">Facebook <GoArrowUpRight className='fs-3' /></a>
@@ -15,7 +15,7 @@ const Footerpage = () => {
                         <a href="#" className="  w-100 p-2 fs-6 color-footer border">YouTube <GoArrowUpRight className='fs-3' /></a></Col>
                 </Row>
             </Container>
-            <Container fluid className='p-0 light-gray'>
+            <Container fluid className='p-0 light-gray z-2 position-relative'>
 
 
                 <Container className='border-bottom-grey py-4 mb-3 px-5'>
@@ -38,12 +38,12 @@ const Footerpage = () => {
                     </Row>
 
                 </Container>
-                <Container className=''>
+                <Container className='z-2 position-relative'>
                     <Row className='px-5'>
                         <Col sm={12} lg={4} className='mt-3'>
                             <p className='fs-6'>#36,4th Cross,Nandidurg Road,<br></br>Jayamahal,Bengaluru 560046</p>
                             <div className=''>
-                                <p className='fs-6 mb-0 d-flex'><h5>Phone:</h5> +91 98452 47374</p>
+                                <p className='fs-6 mb-0 d-flex'><h5>phone:<p className='mb-0'></p></h5> +91 98452 47374</p>
                                 <p className='ms-lg-5 fs-6 px-lg-4'> +91 98440 32022</p>
                             </div>
 
@@ -94,7 +94,7 @@ const Footerpage = () => {
                     </Row>
                 </Container>
 
-                <Container className='mt-5 px-5'>
+                <Container className='mt-5 px-5 z-2 position-relative'>
                     <p className='border-bottom'></p>
 
                     <a href="#" className="text-decoration-none text-dark fs-6 mt-1">@2024 Ekaya.All Rights Reserved</a>

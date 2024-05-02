@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const ProjectRegistrationForm = () => {
   return (
-    <Container className='px-5 p-1 ms-3'>
+    <Container className='px-5 p-1 ms-3 z-2 position-relative '>
     <Container className='mt-5 p-5 mx-5 ' style={{ backgroundColor: '#F1F4F5' }}>
 
       <p className='mt-5 display-6'>Get in touch</p>

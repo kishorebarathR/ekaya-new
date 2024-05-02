@@ -29,8 +29,8 @@ const Goa = () => {
   return (
     <>
       <Container>
-        <Row className='mt-5'>
-          <Col className='flex-row-reverse' sm={12} lg={4}>
+        <Row className='mt-5 ms-3'>
+          <Col className='flex-row-reverse pe-3' sm={12} lg={4}>
             <div className="accordion" id="accordionPanelsStayOpenExample">
               <div className="accordion-item">
                 <button
@@ -73,14 +73,15 @@ const Goa = () => {
               </div> */}
             </div>
           </Col>
-          <Col sm={12} lg={8}>
+         
+          <Col sm={12} lg={8} className='px-5'>
             {showVistaContent && (
               <>
                 <Carousel data-bs-theme="light">
                   <Carousel.Item>
                     <Image
-                      className="d-block w-100"
-                      src="/images/Takshavi-banner.jpg"
+                      className="d-block w-100 "
+                      src="/images/vista_banner.png"
                       alt="First slide"
                     />
                     <Carousel.Caption>
@@ -90,7 +91,7 @@ const Goa = () => {
                   <Carousel.Item>
                     <Image
                       className="d-block w-100"
-                      src="/images/Takshavi-banner.jpg"
+                      src="/images/vista_banner.png"
                       alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -100,7 +101,7 @@ const Goa = () => {
                   <Carousel.Item>
                     <Image
                       className="d-block w-100"
-                      src="/images/Takshavi-banner.jpg"
+                      src="/images/vista_banner.png"
                       alt="Third slide"
                     />
                     <Carousel.Caption>
