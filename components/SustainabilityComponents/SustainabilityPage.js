@@ -63,18 +63,21 @@ const SustainabilityPage = () => {
 
             <Container className=' p-lg-5'>
                 <Row className='mt-5 px-lg-4'>
-                    <Col sm={12} lg={4}>
-                        <Image src="/images/Sustainability_img5.png" className="img-fluid w-25  " alt="..." />
+                    <Col sm={12} lg={4} className='mb-2'>
+                        <Image src="/images/Sustainability_img5.png" className="img-fluid w-25 p-1 " alt="..." />
+                        
                         <p className='fs-3'>Local Sourcing: <p className='mb-0'></p> Building Stronger <p className='mb-0'></p>Communities</p>
                         <p className='fs-6'>By sourcing materials locally, we reduce the need for long-distance transportation, thereby cutting down on carbon emissions associated with shipping. This approach aligns with our commitment to environmental responsibility by minimizing our carbon footprint.</p>
                     </Col>
                     <Col sm={12} lg={4}>
                         <Image src="/images/Sustainability_img6.png" className="img-fluid w-25  " alt="..." />
+                        <p className='mb-0'></p>
                         <p className='fs-3'>Supporting Local Economies: Investing<p className='mb-0'></p> in Communities</p>
                         <p className='fs-6'>By sourcing materials locally, we reduce the need for long-distance transportation, thereby cutting down on carbon emissions associated with shipping. This approach aligns with our commitment to environmental responsibility by minimizing our carbon footprint.</p>
                     </Col>
                     <Col sm={12} lg={4}>
-                        <Image src="/images/Sustainability_img7.png" className="img-fluid w-25  " alt="..." />
+                        <Image src="/images/Sustainability_img7.png" className="img-fluid w-25  mt-2" alt="..." />
+                        <p className='mb-0'></p>
                         <p className='fs-3'>Quality Assurance<p className='mb-0'></p> and Collaboration: <p className='mb-0'></p>Working Hand in Hand</p>
                         <p className='fs-6'>By sourcing materials locally, we reduce the need for long-distance transportation, thereby cutting down on carbon emissions associated with shipping. This approach aligns with our commitment to environmental responsibility by minimizing our carbon footprint.</p>
                     </Col>
@@ -84,6 +87,7 @@ const SustainabilityPage = () => {
                 <Row className='px-lg-4'>
                     <Col sm={12} lg={4}>
                         <Image src="/images/Sustainability_img8.png" className="img-fluid w-25  " alt="..." />
+                        <p className='mb-0'></p>
                         <p className='fs-3'>Empowering Communities: Driving Positive Change Together</p>
                         <p className='fs-6'>Our commitment to local sourcing extends beyond economic benefits; it’s also about empowering communities. By investing in local businesses and suppliers, we help create opportunities for growth and development. Additionally, by engaging with local stakeholders, we ensure that our projects are aligned with community needs and priorities.</p>
                     </Col>
