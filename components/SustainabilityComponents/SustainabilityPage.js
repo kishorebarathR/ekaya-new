@@ -54,7 +54,7 @@ const SustainabilityPage = () => {
 
             <Image src="/images/Group 49570.jpg" className="img-fluid w-100 h-100  " alt="..." />
 
-            <Container fluid className='text-bg-dark p-5 '>
+            <Container fluid className='text-bg-dark p-5'>
                 <Container className='ms-lg-4 px-lg-5'>
                     <p className='fs-3'>Embracing Local Sourcing: Our Company’s Sustainable<p className='mb-0'></p> Procurement Approach</p>
                     <p className='fs-6'>At our company, sustainability isn’t just about minimizing environmental impact; it’s also about supporting local communities<p className='mb-0'></p> and economies. One of the ways we achieve this is by procuring all building-related materials locally. This commitment not only reduces transportation emissions but also fosters economic growth and strengthens community ties.</p>
@@ -76,7 +76,7 @@ const SustainabilityPage = () => {
                         <p className='fs-6'>By sourcing materials locally, we reduce the need for long-distance transportation, thereby cutting down on carbon emissions associated with shipping. This approach aligns with our commitment to environmental responsibility by minimizing our carbon footprint.</p>
                     </Col>
                     <Col sm={12} lg={4}>
-                        <Image src="/images/Sustainability_img7.png" className="img-fluid w-25  mt-2" alt="..." />
+                        <Image src="/images/Sustainability_img7.png" className="img-fluid w-25 mt-2" alt="..." />
                         <p className='mb-0'></p>
                         <p className='fs-3'>Quality Assurance<p className='mb-0'></p> and Collaboration: <p className='mb-0'></p>Working Hand in Hand</p>
                         <p className='fs-6'>By sourcing materials locally, we reduce the need for long-distance transportation, thereby cutting down on carbon emissions associated with shipping. This approach aligns with our commitment to environmental responsibility by minimizing our carbon footprint.</p>

@@ -4,11 +4,12 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 const Highlights = () => {
   return (
     <>
-    <Container>
-      <h2 className="p-5 ms-lg-5 mx-4 px-lg-2 fs-1">Location Highlights</h2>
-    </Container>
+  
       
-      <Container className="p-5 ">
+      <Container className="p-5 pb-5  border-bottom">
+      
+      <h2 className="p-5 px-lg-2 fs-1 border-top">Location Highlights</h2>
+    
         <Row className="ms-1">
         <Col lg={3} className="mb-3 position-relative bg-green p-0">
             <span

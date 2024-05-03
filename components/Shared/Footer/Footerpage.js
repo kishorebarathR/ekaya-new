@@ -43,11 +43,11 @@ const Footerpage = () => {
                         <Col sm={12} lg={4} className='mt-3'>
                             <p className='fs-6'>#36,4th Cross,Nandidurg Road,<br></br>Jayamahal,Bengaluru 560046</p>
                             <div className=''>
-                                <p className='fs-6 mb-0 d-flex'><h5>phone:<p className='mb-0'></p></h5> +91 98452 47374</p>
-                                <p className='ms-lg-5 fs-6 px-lg-4'> +91 98440 32022</p>
+                                <p className='fs-6 mb-0 d-flex gap-1'><h5>Phone:<p className='mb-0'></p></h5> +91 98452 47374</p>
+                                <p className='ms-lg-5 fs-6 px-lg-4  gap-1'> +91 98440 32022</p>
                             </div>
 
-                            <a href="#" className="text-decoration-none text-dark fs-6 d-flex"><h5>Email:</h5>contact@ekaya</a>
+                            <a href="#" className="text-decoration-none text-dark fs-6 d-flex gap-3"><h5>Email:</h5>contact@ekaya</a>
                         </Col>
                         <Col className='d-flex flex-column mt-3' sm={12} lg={4}>
 

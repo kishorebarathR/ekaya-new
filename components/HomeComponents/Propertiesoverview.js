@@ -45,7 +45,7 @@ const Propertiesoverview = () => {
     <>
 
 
-      <Container className='mb-0'>
+      <Container className='mb-0 pb-5'>
         <div className='mt-5 d-flex flex-row px-1  ms-4'>
           <div className='p-0 col-lg-4 col-sm-12 pe-3'>
             <div className="accordion" id="accordionPanelsStayOpenExample">
@@ -253,8 +253,8 @@ const Propertiesoverview = () => {
           </div>
         </div>
       </Container>
-      <Container className='z-3 bg-white position-relative ' >
-        <Container className=' p-0 border-top  '>
+      <Container className='z-3 bg-white position-relative' >
+        <Container className=' p-0 border-top '>
           <p className='text-center fs-5 mt-5  wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
           <p className='text-center mx-5 p-4 fs-6' style={{ borderBottom: '2px dotted' }}>“Discovering Ekaya was like finding a hidden gem. The attention to detail and personal touch<br></br> they bring to every aspect of the home-buying experience is truly unparalleled.”</p>
         </Container>

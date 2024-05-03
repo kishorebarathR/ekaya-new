@@ -116,7 +116,8 @@ color:  #6baab7 !important;
 }
 
 .border-bottom-lite {
-  border-bottom:1px solid rgb(142, 140, 140) !important;
+  border-bottom:1px solid rgb(142, 140, 140) !important;  
+
 }
 /* MODREN CONTENT  */
  .middle {
@@ -205,23 +206,20 @@ form .custom-input {
 
 
 .talkbubble {
-  /* width: 120px; */
-  /* height: 80px; */
   background: #abd2d3;
   position: relative;
-
   padding: 10px;
 }
 
 .talkbubble:before {
   content: "";
   position: absolute;
-  left: 100%; /* Changed from right: 100% */
+  left: 100%;
   top: 26px;
   width: 0;
   height: 0;
   border-top: 13px solid transparent;
-  border-left: 26px solid #abd2d3; /* Changed from border-right */
+  border-left: 26px solid #abd2d3;
   border-bottom: 13px solid transparent;
 }
 .border-bottom-green {
@@ -256,7 +254,6 @@ form .custom-input {
 
 
 .border-green{
-  /* border: 1px; */
   border-color: #ABD2D3 !important;
   background-color: #EFF1F3 !important;
 }
@@ -281,21 +278,17 @@ form .custom-input {
   background: #abd2d3;
 }
 
-
-
-/*  */
 #triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
   border-left: 18px solid #abd2d3;
   border-bottom: 15px solid transparent;
-  /* position: absolute;
-  top: 44%;
-  left:100%; */
+
 }
 .grid-line-1{
   left:8.7% !important;
+  /* margin-top: 72px ;transform: none; */
 
 }
 

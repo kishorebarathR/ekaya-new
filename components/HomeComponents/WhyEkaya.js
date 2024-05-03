@@ -9,17 +9,17 @@ const WhyEkaya = () => {
 
   return (
     <>
-      <Container className='pb-5 p-0 z-2 bg-white position-relative'>
+      <Container className='pb-5 p-0 z-2 bg-white position-relative px-4 ms-5'>
         <Row className="ms-1 mt-1">
           <Col sm={12} lg={4}>
             <p className='fs-1 mt-3 ms-lg-5'>Why Ekaya</p>
-            <Image src="/images/Tab_img.jpg" className="w-100 p-lg-3 ms-lg-4 " alt="..." />
+            <Image src="/images/Tab_img.jpg" className="w-100 p-lg-1 ms-lg-4 " alt="..." />
           </Col>
-          <Col lg={8} className=' mt-5'>
+          <Col lg={8} className=' mt-4 p-2  '>
             <Tabs
               activeKey={activeKey}
               onSelect={(key) => setActiveKey(key)}
-              className="mb-3 custom-tabs  me-5 pe-5"
+              className="mb-3 custom-tabs  me-5 pe-5 "
               style={{ width: '100%' }}
             >
               <Tab eventKey="home tab-title" title={<span className="tab-title  ">Nature’s Embrace<p className='mb-0'></p> in Every Corner</span>}>

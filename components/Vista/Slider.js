@@ -3,6 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Row, Col, Container, Image } from 'react-bootstrap';
 function UncontrolledExample() {
   return (
+    <>
+    <Container className=''>
     <Carousel>
       <Carousel.Item>
         <Image src='/images/vista_group-1.png'/>
@@ -28,6 +30,9 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </Container>
+    
+</>
   );
 }
 

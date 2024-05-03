@@ -72,7 +72,7 @@ const VistaPage = () => {
         </p>
       </Container>
 
-      <Container fluid>
+      <Container fluid className=" z-2 bg-white position-relative">
     
       <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner mb-4">
@@ -117,7 +117,7 @@ const VistaPage = () => {
       </Container>
 
 
-      <Container>
+      <Container className=" z-2 bg-white position-relative border-bottom">
         <h4 className="text-center p-5">
           <span className=" p-3 border-green bg-white fs-6">
             <Link className="wbg-green fs-6" href="#">
@@ -128,7 +128,7 @@ const VistaPage = () => {
       </Container>
 
       <Container className="">
-        <p className="justify-content-center mx-lg-1 mt-5 text-center fs-1">
+        <p className="justify-content-center mx-lg-1  text-center fs-1">
           Luxurious Amenities at Oceanfront Apartments
         </p>
         <p className="fs-5 ms-lg-5 mt-3 text-center px-lg-5">

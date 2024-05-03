@@ -15,21 +15,21 @@ const Modern = () => {
 
             </Container>
 
-            <Container fluid>
+            <Container fluid >
 
 
                 <Container className=' me-1'>
                     <Col className='fs-6 col-lg-3 ms-4  text-center azureish-white p-2'>Project Gallery</Col>
                 </Container>
-                <Row className='wbg-dark-green'>
+                <Row className='wbg-dark-green '>
 
                     <Col></Col>
 
-                    <Col className='middle  '>
+                    <Col className='middle  'lg={3}>
                         <p className='fs-6 text-white justify-content-center'>Experience the pinnacle of modern living with our spacious homes, featuring thoughtful layouts and upscale amenities.</p>
                     </Col>
 
-                    <Col lg={8} className='p-0'>
+                    <Col lg={7} className='p-0 ms-5'>
                         <Image src="/images/Embrace_img2.jpg " className="img-fluid w-100 " alt="..." />
                     </Col>
                 </Row>

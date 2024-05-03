@@ -75,9 +75,6 @@ const Specifications = () => {
                                 <p className='fs-6'>
                                     Oil bound distemper paint for Ceiling and Walls.  </p>
                             </div>
-
-
-
                             <p className=''><h5>OTHER BEDROOMS</h5></p>
                             <div className='d-flex flex-row justify-content-start align-items-start '>
                                 <div >

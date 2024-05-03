@@ -4,15 +4,8 @@ import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
 
 const Goa = () => {
   const [isCollapsed, setCollapse] = useState(true);
-  const [showVistaContent, setShowVistaContent] = useState(false);
+  const [showVistaContent, setShowVistaContent] = useState(true); // Change here
   const [isCollapsed1, setCollapse1] = useState(true);
-
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-
-
 
   const toggleCollapse = () => {
     setCollapse(!isCollapsed);
@@ -28,8 +21,8 @@ const Goa = () => {
 
   return (
     <>
-      <Container>
-        <Row className='mt-5 ms-3'>
+      <Container className='pb-5'>
+        <Row className=' ms-3'>
           <Col className='flex-row-reverse pe-3' sm={12} lg={4}>
             <div className="accordion" id="accordionPanelsStayOpenExample">
               <div className="accordion-item">
@@ -56,24 +49,11 @@ const Goa = () => {
                        Vista-Do-Mar <span className='float-end '></span>
                       </button>
                     </div>
-
                   </div>
                 </div>
               </div>
-              {/* <div className="accordion-item">
-                <button className="btn btn-dark w-100 rounded-0 p-3" type="button" onClick={toggleCollapse1} data-bs-toggle="collapse" data-bs-target="#open" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  Completed Projects
-                  <span className='float-end text-white'>{isCollapsed1 ? <FaAngleDown size={24} className='display-4' /> : <FaAngleUp size={24} className='display-4' />}</span>
-                </button>
-                <div id="open" className="accordion-collapse collapse">
-                  <div className="accordion-body">
-                    <strong>This is the first item&apos;s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div> */}
             </div>
           </Col>
-         
           <Col sm={12} lg={8} className='px-5'>
             {showVistaContent && (
               <>
@@ -84,9 +64,7 @@ const Goa = () => {
                       src="/images/vista_banner.png"
                       alt="First slide"
                     />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
+                    <Carousel.Caption></Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item>
                     <Image
@@ -94,9 +72,7 @@ const Goa = () => {
                       src="/images/vista_banner.png"
                       alt="Second slide"
                     />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
+                    <Carousel.Caption></Carousel.Caption>
                   </Carousel.Item>
                   <Carousel.Item>
                     <Image
@@ -104,9 +80,7 @@ const Goa = () => {
                       src="/images/vista_banner.png"
                       alt="Third slide"
                     />
-                    <Carousel.Caption>
-
-                    </Carousel.Caption>
+                    <Carousel.Caption></Carousel.Caption>
                   </Carousel.Item>
                 </Carousel>
                 <div>
@@ -121,14 +95,16 @@ const Goa = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
-        <p className='text-center fs-5 mt-5 wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
-        <p className='text-center mx-5 p-4 fs-6' style={{ borderBottom: '1px dotted' }}>“Discovering Ekaya was like finding a hidden gem. The attention to detail and personal touch<br></br> they bring to every aspect of the home-buying experience is truly unparalleled.”</p>
-      </Container>
-      <Container>
-        <div className='text-center mt-4'>
-          <Image src="/images/Group 13190.png" className="img-fluid" alt="..." />
-        </div>
+      <Container className='z-3 bg-white position-relative' >
+        <Container className=' p-0 border-top  '>
+          <p className='text-center fs-5 mt-5  wbg-green'>LET’S HEAR FROM OUR CLIENTS</p>
+          <p className='text-center mx-5 p-4 fs-6' style={{ borderBottom: '2px dotted' }}>“Discovering Ekaya was like finding a hidden gem. The attention to detail and personal touch<br></br> they bring to every aspect of the home-buying experience is truly unparalleled.”</p>
+        </Container>
+        <Container className=' '>
+          <div className='text-center mt-4 '>
+            <Image src="/images/Group 13190.png" className="img-fluid" alt="..." />
+          </div>
+        </Container>
       </Container>
     </>
   );

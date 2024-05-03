@@ -4,8 +4,8 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 const Highlights = () => {
   return (
     <>
-     
-      <Container className="p-5">
+     <Container className="">  
+         <Container className="p-5 border-bottom mt-5">
       <h3 className="p-2 mb-5 fs-1">Location Highlights</h3>
         <Col className="d-flex flex-column justify-content-center gap-3">
           <Row className="ms-1">
@@ -140,6 +140,8 @@ const Highlights = () => {
           </Row>
         </Col>
       </Container>
+      </Container>
+
     </>
   );
 };

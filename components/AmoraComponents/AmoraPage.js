@@ -6,7 +6,7 @@ import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 const AmoraPage = () => {
   return (
     <>
-      <Container>
+      <Container className="pb-5">
         <Row>
           <Col>
             <p className="justify-content-center mx-4 ms-lg-5 px-lg-2 mt-5 fs-4 wbg-green">
@@ -30,7 +30,7 @@ const AmoraPage = () => {
           word for love, reflecting the essence of affection and warmth that
           permeates every aspect of this luxurious retreat.
         </p>
-        <p className=" fs-6 mx-4 mt-3 ms-lg-5 px-lg-2"> 
+        <p className=" fs-6 mx-4  ms-lg-5 px-lg-2"> 
           Comprising four exquisite villas, each meticulously designed to offer
           the epitome of comfort and sophistication, Amora Villas presents a
           haven of tranquility and elegance for vacationers. Each villa boasts
@@ -43,7 +43,7 @@ const AmoraPage = () => {
         </p>
       </Container>
 
-      <Container fluid className=" ">
+      <Container fluid className="z-3 bg-white position-relative  ">
       <div id="demo" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-inner mb-4">
           <div class="carousel-item active">

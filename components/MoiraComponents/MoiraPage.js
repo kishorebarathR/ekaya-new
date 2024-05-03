@@ -9,12 +9,12 @@ const MoiraPage = () => {
             </Container>
 
 
-            <Container  className='mt-5 d-flex flex-column gap-5'>
+            <Container  className='mt-5 d-flex flex-column gap-5 pb-5 '>
 
-                <Row className='azureish-white '>
+                <Row className='azureish-white  '>
                     <Col className='p-0 position-relative' sm={12} lg={4}>
                         <span id='triangle-left'></span>
-                        <Image src="/images/Moira_img1.png" className="img-fluid w-100 h-100  " alt="..." />
+                        <Image src="/images/Moira_img1.png" className="img-fluid w-100 h-100 z-3 bg-white position-relative " alt="..." />
                     </Col>
                     <Col className='p-5 d-flex flex-column justify-content-center postion-relative' sm={12} lg={8}>
                         <p className='fs-6 mb-0'>
@@ -31,14 +31,14 @@ const MoiraPage = () => {
                     </Col>
                     <Col className='p-0  position-relative' sm={12} lg={4}>
                         <span id='triangle-right'></span>
-                        <Image src="/images/Moira_img2.png" className="img-fluid w-100 h-100 " alt="..." />
+                        <Image src="/images/Moira_img2.png" className="img-fluid w-100 h-100 z-3 bg-white position-relative" alt="..." />
                     </Col>
                 </Row>
 
                 <Row className='azureish-white'>
                     <Col className='p-0 position-relative' sm={12} lg={4}>
                         <span id='triangle-left'></span>
-                        <Image src="/images/Moira_img3.png " className="img-fluid w-100 h-100 " alt="..." />
+                        <Image src="/images/Moira_img3.png " className="img-fluid w-100 h-100 z-3 bg-white position-relative" alt="..." />
                     </Col>
                     <Col className='p-5 d-flex flex-column justify-content-center' sm={12} lg={8}>
                         <p className='fs-6 mb-0'>Moreover, Moira’s strategic location near Assagao adds to its allure. Assagao, a neighboring village known for its bohemian vibe, hosts an array of chic cafes, boutique stores, and gourmet restaurants. Indulging in a culinary journey through Assagao’s quaint eateries becomes a delightful pastime for residents of Moira, offering a taste of Goa’s diverse gastronomy.</p>
@@ -51,7 +51,7 @@ const MoiraPage = () => {
                     </Col>
                     <Col className='p-0 position-relative' sm={12} lg={4}>
                         <span id='triangle-right'></span>
-                        <Image src="/images/Moira_img4.png" className="img-fluid w-100 h-100 me-0 " alt="..." />
+                        <Image src="/images/Moira_img4.png" className="img-fluid w-100 h-100 me-0 z-3 bg-white position-relative " alt="..." />
                     </Col>
                 </Row>
             </Container>
